@@ -11,22 +11,22 @@ function mytheme_setup_theme_supported_features() {
     add_theme_support( 'editor-color-palette', array(
         array(
             'name' => __( 'Brand Color 1', 'epec-custom-palette' ),
-            'slug' => 'Brand Color 1',
+            'slug' => 'brand-color-1',
             'color' => '#6128A1',
         ),
         array(
             'name' => __( 'Brand Color 2', 'epec-custom-palette' ),
-            'slug' => 'Brand Color 2',
+            'slug' => 'brand-color-2',
             'color' => '#E94B59',
         ),
         array(
             'name' => __( 'Very Dark Gray ', 'epec-custom-palette' ),
-            'slug' => 'Very Dark Gray ',
+            'slug' => 'very-dark-Gray ',
             'color' => '#111111',
         ),
         array(
             'name' => __( 'White', 'epec-custom-palette' ),
-            'slug' => 'White',
+            'slug' => 'white',
             'color' => '#FFFFFF',
 
             'name' => __( 'Very Dark Grey', 'epec-custom-palette' )
