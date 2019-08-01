@@ -10,26 +10,26 @@ Author: Mary Joseph Jeslie
 function mytheme_setup_theme_supported_features() {
     add_theme_support( 'editor-color-palette', array(
         array(
-            'name' => __( 'strong magenta', 'epec-custom-palette' ),
-            'slug' => 'strong-magenta',
-            'Brand Color 1' => '#6128A1',
+            'name' => __( 'Brand Color 1', 'epec-custom-palette' ),
+            'slug' => 'Brand Color 1',
+            'color' => '#6128A1',
         ),
         array(
-            'name' => __( 'light grayish magenta', 'epec-custom-palette' ),
-            'slug' => 'light-grayish-magenta',
+            'name' => __( 'Brand Color 2', 'epec-custom-palette' ),
+            'slug' => 'Brand Color 2',
             'color' => '#E94B59',
         ),
         array(
-            'name' => __( 'very light gray', 'epec-custom-palette' ),
-            'slug' => 'very-light-gray',
+            'name' => __( 'Very Dark Gray ', 'epec-custom-palette' ),
+            'slug' => 'Very Dark Gray ',
             'color' => '#111111',
         ),
         array(
-            'name' => __( 'very dark gray', 'epec-custom-palette' ),
-            'slug' => 'very-dark-gray',
+            'name' => __( 'White', 'epec-custom-palette' ),
+            'slug' => 'White',
             'color' => '#FFFFFF',
 
-           
+            'name' => __( 'Very Dark Grey', 'epec-custom-palette' )
         ),
     ) );
 }
